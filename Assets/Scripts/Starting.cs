@@ -42,7 +42,7 @@ private int currentMode = 0;
         UpdateUI();
     }
 
-    // 見た目（テキスト）を現在のモードに合わせて更新
+    
     void UpdateUI()
     {
         if (currentMode == 0)
@@ -91,7 +91,7 @@ private int currentMode = 0;
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false; // エディタ実行時は停止
 #else
-        Application.Quit(); // 本番ビルド時はアプリ終了
+        Application.Quit(); 
 #endif
     }
 }
