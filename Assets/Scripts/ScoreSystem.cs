@@ -18,12 +18,19 @@ public class ScoreSystem : MonoBehaviour
         {5, 500}
     };
     // 調理完了時に呼び出し
-    public void chackscore(int rank, float order_time)
+    public void checkscore(int rank, float order_time)
     {
-
-        AddScore(rank);
         AddMoney(rank);
-        RemoveScore(rank, order_time);
+        if (order_time > 0)
+        {
+            RemoveScore(rank, order_time);
+        }
+        else
+        {
+            AddScore(rank);
+        }
+        AddScore(rank);
+        
     }
     void AddScore(int rank)
     {
@@ -31,7 +38,6 @@ public class ScoreSystem : MonoBehaviour
         PlayerPrefs.SetFloat("score", score);
         PlayerPrefs.Save(); 
 
-        
         Judgescore(score);
     }
 
