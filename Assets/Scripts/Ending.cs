@@ -26,7 +26,7 @@ public class Ending : MonoBehaviour
     public void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.loop = true;
+
         if (is_clear)
         {
             ResultText.text = "GameClear!";
