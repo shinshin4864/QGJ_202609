@@ -15,7 +15,7 @@ public class DebugSc : MonoBehaviour
     {
         if (doDebug)
         {
-            ScoreSystem.money = flo;
+            //ScoreSystem.money = flo;
             doDebug = false;
 
         }

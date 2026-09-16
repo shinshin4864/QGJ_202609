@@ -21,7 +21,7 @@ public class Ending : MonoBehaviour
     [SerializeField] private AudioClip GameClearBGM;
     [SerializeField] private AudioClip ResultBGM;
     //gameoverかgameclearかを判定するフラグ
-    public static bool is_clear = false;
+    public static bool is_clear = true;
 
     public void Start()
     {

@@ -1,0 +1,5200 @@
+fileFormatVersion: 2
+guid: b6f1e82bb98a25642a18c8f90920ad80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6344066788937592833
+    second: saltso_0
+  - first:
+      213: 1881374682499891931
+    second: saltso_1
+  - first:
+      213: -4647966230064023974
+    second: saltso_2
+  - first:
+      213: 6590216922573737415
+    second: saltso_3
+  - first:
+      213: -2630112712339952445
+    second: saltso_4
+  - first:
+      213: 6838562558341058139
+    second: saltso_5
+  - first:
+      213: 2307296039198956083
+    second: saltso_6
+  - first:
+      213: -7496685899011122885
+    second: saltso_7
+  - first:
+      213: 5431093450983850095
+    second: saltso_8
+  - first:
+      213: -8413388332990351419
+    second: saltso_9
+  - first:
+      213: 9020220133552441450
+    second: saltso_10
+  - first:
+      213: -6788025125761885420
+    second: saltso_11
+  - first:
+      213: -7547105759811484941
+    second: saltso_12
+  - first:
+      213: 5739913764767959766
+    second: saltso_13
+  - first:
+      213: 2773106227415120525
+    second: saltso_14
+  - first:
+      213: 287186336688060654
+    second: saltso_15
+  - first:
+      213: -2682611949914833359
+    second: saltso_16
+  - first:
+      213: -1990760463857292371
+    second: saltso_17
+  - first:
+      213: -4755327043062269913
+    second: saltso_18
+  - first:
+      213: 4251332185582788085
+    second: saltso_19
+  - first:
+      213: -30443228790525655
+    second: saltso_20
+  - first:
+      213: 7070773878092511352
+    second: saltso_21
+  - first:
+      213: -6637755463867669324
+    second: saltso_22
+  - first:
+      213: -7550089512620562527
+    second: saltso_23
+  - first:
+      213: -7273698031867954468
+    second: saltso_24
+  - first:
+      213: 2130587419782681664
+    second: saltso_25
+  - first:
+      213: -5637046100362134964
+    second: saltso_26
+  - first:
+      213: 6567846875066975970
+    second: saltso_27
+  - first:
+      213: -872297939307050338
+    second: saltso_28
+  - first:
+      213: -2573689041147303232
+    second: saltso_29
+  - first:
+      213: -3199882216862649444
+    second: saltso_30
+  - first:
+      213: -6502202457759337220
+    second: saltso_31
+  - first:
+      213: -3477380754175932572
+    second: saltso_32
+  - first:
+      213: -5899551377051328986
+    second: saltso_33
+  - first:
+      213: 7995957238314998378
+    second: saltso_34
+  - first:
+      213: 3917607574849070294
+    second: saltso_35
+  - first:
+      213: -4279932069633008578
+    second: saltso_36
+  - first:
+      213: -1969966595549951411
+    second: saltso_37
+  - first:
+      213: 1694486692247820851
+    second: saltso_38
+  - first:
+      213: 4091779271680501486
+    second: saltso_39
+  - first:
+      213: 2785684332547645689
+    second: saltso_40
+  - first:
+      213: 6023813681722864923
+    second: saltso_41
+  - first:
+      213: 2003658429089437320
+    second: saltso_42
+  - first:
+      213: 3616104044887082347
+    second: saltso_43
+  - first:
+      213: 3110519204890800264
+    second: saltso_44
+  - first:
+      213: -8152236955961279474
+    second: saltso_45
+  - first:
+      213: -321802923573938842
+    second: saltso_46
+  - first:
+      213: -5148004419986561174
+    second: saltso_47
+  - first:
+      213: 5873393032200585193
+    second: saltso_48
+  - first:
+      213: 1659141517332057493
+    second: saltso_49
+  - first:
+      213: -1672907489741081039
+    second: saltso_50
+  - first:
+      213: 6289476336804688591
+    second: saltso_51
+  - first:
+      213: -6599170041848033603
+    second: saltso_52
+  - first:
+      213: -6022835786696594631
+    second: saltso_53
+  - first:
+      213: 4396492952327944255
+    second: saltso_54
+  - first:
+      213: -1656787612520130228
+    second: saltso_55
+  - first:
+      213: 4453480315846863581
+    second: saltso_56
+  - first:
+      213: 4713942049524517563
+    second: saltso_57
+  - first:
+      213: 5435082718925370125
+    second: saltso_58
+  - first:
+      213: -3909227131302282458
+    second: saltso_59
+  - first:
+      213: 2675318009979933914
+    second: saltso_60
+  - first:
+      213: 4709345108284263882
+    second: saltso_61
+  - first:
+      213: -1556437851537840482
+    second: saltso_62
+  - first:
+      213: -4768539175569636902
+    second: saltso_63
+  - first:
+      213: 8790719699549436662
+    second: saltso_64
+  - first:
+      213: 5386956679053237748
+    second: saltso_65
+  - first:
+      213: -541020375098231336
+    second: saltso_66
+  - first:
+      213: -8027953295049880776
+    second: saltso_67
+  - first:
+      213: -333516097876827716
+    second: saltso_68
+  - first:
+      213: -5939448352739377694
+    second: saltso_69
+  - first:
+      213: 5972122258183770169
+    second: saltso_70
+  - first:
+      213: -2553282965266219121
+    second: saltso_71
+  - first:
+      213: -1508242388075202198
+    second: saltso_72
+  - first:
+      213: -958480816310921824
+    second: saltso_73
+  - first:
+      213: 285653262138454236
+    second: saltso_74
+  - first:
+      213: -466433441064263687
+    second: saltso_75
+  - first:
+      213: 5300159778591981300
+    second: saltso_76
+  - first:
+      213: 6916663026004897922
+    second: saltso_77
+  - first:
+      213: -2085804345745170336
+    second: saltso_78
+  - first:
+      213: 6576902118684658895
+    second: saltso_79
+  - first:
+      213: 4031815398146941292
+    second: saltso_80
+  - first:
+      213: -7937941780377789750
+    second: saltso_81
+  - first:
+      213: -5983759821890863500
+    second: saltso_82
+  - first:
+      213: -5411072543576290173
+    second: saltso_83
+  - first:
+      213: -4029054558571424796
+    second: saltso_84
+  - first:
+      213: -8382467348124423717
+    second: saltso_85
+  - first:
+      213: 1433730510481319389
+    second: saltso_86
+  - first:
+      213: -9155021480391772718
+    second: saltso_87
+  - first:
+      213: -353334447184964528
+    second: saltso_88
+  - first:
+      213: -3690462332947859457
+    second: saltso_89
+  - first:
+      213: -4610674276527709270
+    second: saltso_90
+  - first:
+      213: 9090092324401786052
+    second: saltso_91
+  - first:
+      213: -7376143549035803062
+    second: saltso_92
+  - first:
+      213: 455414836214133373
+    second: saltso_93
+  - first:
+      213: -2932509520483882041
+    second: saltso_94
+  - first:
+      213: -6498660659387555744
+    second: saltso_95
+  - first:
+      213: 2548632976936510504
+    second: saltso_96
+  - first:
+      213: -8109577509099408364
+    second: saltso_97
+  - first:
+      213: -1986542782008514354
+    second: saltso_98
+  - first:
+      213: -6085258471583676233
+    second: saltso_99
+  - first:
+      213: -5615065686222538988
+    second: saltso_100
+  - first:
+      213: -1726257182993020034
+    second: saltso_101
+  - first:
+      213: 4577609692228165875
+    second: saltso_102
+  - first:
+      213: 3176193853207714674
+    second: saltso_103
+  - first:
+      213: 6229825199144564037
+    second: saltso_104
+  - first:
+      213: -2043760725427214705
+    second: saltso_105
+  - first:
+      213: -4282220678785570970
+    second: saltso_106
+  - first:
+      213: 8828103054904076705
+    second: saltso_107
+  - first:
+      213: -5923224708407816846
+    second: saltso_108
+  - first:
+      213: -8579968221201512374
+    second: saltso_109
+  - first:
+      213: -1904433623504885743
+    second: saltso_110
+  - first:
+      213: -7972208234525386752
+    second: saltso_111
+  - first:
+      213: 8963874945568112386
+    second: saltso_112
+  - first:
+      213: 2056704028785254882
+    second: saltso_113
+  - first:
+      213: 4254937965340366766
+    second: saltso_114
+  - first:
+      213: 295875832785092239
+    second: saltso_115
+  - first:
+      213: -3975980205684742828
+    second: saltso_116
+  - first:
+      213: 4126437057456346053
+    second: saltso_117
+  - first:
+      213: -7145143305090371612
+    second: saltso_118
+  - first:
+      213: -4365503330824026161
+    second: saltso_119
+  - first:
+      213: -2306785482283927967
+    second: saltso_120
+  - first:
+      213: -6537044788960712833
+    second: saltso_121
+  - first:
+      213: -898854674492664210
+    second: saltso_122
+  - first:
+      213: 3198320301165690453
+    second: saltso_123
+  - first:
+      213: 8162687860882960660
+    second: saltso_124
+  - first:
+      213: -2612071821000909764
+    second: saltso_125
+  - first:
+      213: 6507460663953485609
+    second: saltso_126
+  - first:
+      213: -3707511526485491173
+    second: saltso_127
+  - first:
+      213: -5974743339754182571
+    second: saltso_128
+  - first:
+      213: -187882371645867704
+    second: saltso_129
+  - first:
+      213: 859887754715279422
+    second: saltso_130
+  - first:
+      213: -1015189317497183415
+    second: saltso_131
+  - first:
+      213: 801563045666256835
+    second: saltso_132
+  - first:
+      213: -6498740229037692306
+    second: saltso_133
+  - first:
+      213: -4296722749535634113
+    second: saltso_134
+  - first:
+      213: -4955249597719630309
+    second: saltso_135
+  - first:
+      213: 5919262784305081515
+    second: saltso_136
+  - first:
+      213: 8489443588850875922
+    second: saltso_137
+  - first:
+      213: -6550865221801391775
+    second: saltso_138
+  - first:
+      213: -1690810299661598585
+    second: saltso_139
+  - first:
+      213: 8181363302710706998
+    second: saltso_140
+  - first:
+      213: -1645820641322728234
+    second: saltso_141
+  - first:
+      213: -278715121311406442
+    second: saltso_142
+  - first:
+      213: 5342573344374611486
+    second: saltso_143
+  - first:
+      213: -7732942575356252430
+    second: saltso_144
+  - first:
+      213: -3857705627978128161
+    second: saltso_145
+  - first:
+      213: -7832368207651322278
+    second: saltso_146
+  - first:
+      213: 1481961223451263470
+    second: saltso_147
+  - first:
+      213: -4018598122170188387
+    second: saltso_148
+  - first:
+      213: 8628321380385884762
+    second: saltso_149
+  - first:
+      213: 739695545806672155
+    second: saltso_150
+  - first:
+      213: -2457467658046793078
+    second: saltso_151
+  - first:
+      213: 679722592372162018
+    second: saltso_152
+  - first:
+      213: 5920282231159687431
+    second: saltso_153
+  - first:
+      213: 7857350696019219313
+    second: saltso_154
+  - first:
+      213: 3743651618410415247
+    second: saltso_155
+  - first:
+      213: 2539581661749637328
+    second: saltso_156
+  - first:
+      213: -3561729037883288905
+    second: saltso_157
+  - first:
+      213: 2546387573433762061
+    second: saltso_158
+  - first:
+      213: -1366526612915568275
+    second: saltso_159
+  - first:
+      213: -8057816760207273948
+    second: saltso_160
+  - first:
+      213: -8797077541068398311
+    second: saltso_161
+  - first:
+      213: 4429225806329870098
+    second: saltso_162
+  - first:
+      213: 8373307485870778782
+    second: saltso_163
+  - first:
+      213: -8325498371719760231
+    second: saltso_164
+  - first:
+      213: -3207807925649736972
+    second: saltso_165
+  - first:
+      213: 6581892039094225473
+    second: saltso_166
+  - first:
+      213: 5669976741675220913
+    second: saltso_167
+  - first:
+      213: -3834872625264218082
+    second: saltso_168
+  - first:
+      213: -173359840250866566
+    second: saltso_169
+  - first:
+      213: 1180310213456071843
+    second: saltso_170
+  - first:
+      213: 8084980410511212186
+    second: saltso_171
+  - first:
+      213: 203837371388804546
+    second: saltso_172
+  - first:
+      213: 268777635733482188
+    second: saltso_173
+  - first:
+      213: 4452934947388731439
+    second: saltso_174
+  - first:
+      213: -4357190042933397073
+    second: saltso_175
+  - first:
+      213: 7272623078383132705
+    second: saltso_176
+  - first:
+      213: 8516251323061602690
+    second: saltso_177
+  - first:
+      213: -5232724819075590364
+    second: saltso_178
+  - first:
+      213: 5267546514577644758
+    second: saltso_179
+  - first:
+      213: -1160580524757036855
+    second: saltso_180
+  - first:
+      213: -2907093421043612127
+    second: saltso_181
+  - first:
+      213: -4851891755291005207
+    second: saltso_182
+  - first:
+      213: 2656333326118121973
+    second: saltso_183
+  - first:
+      213: -8597240518956373287
+    second: saltso_184
+  - first:
+      213: -4327122102975215123
+    second: saltso_185
+  - first:
+      213: -9151177256138045497
+    second: saltso_186
+  - first:
+      213: -4637159538877463506
+    second: saltso_187
+  - first:
+      213: 8557963048157957210
+    second: saltso_188
+  - first:
+      213: -6476433419835741931
+    second: saltso_189
+  - first:
+      213: -8219946213104425243
+    second: saltso_190
+  - first:
+      213: -5556312288088375238
+    second: saltso_191
+  - first:
+      213: -1546680472534146682
+    second: saltso_192
+  - first:
+      213: -7176954914254507821
+    second: saltso_193
+  - first:
+      213: 3675017417430948852
+    second: saltso_194
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saltso_0
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 2377
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff85062ed855f7a0800000000000000
+      internalID: -6344066788937592833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_1
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 2330
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2c1d74e4cfb1a10800000000000000
+      internalID: 1881374682499891931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_2
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2346
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56b509f65b1f7fb0800000000000000
+      internalID: -4647966230064023974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_3
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 2290
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd86c6ef57257b50800000000000000
+      internalID: 6590216922573737415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_4
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 2278
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccecbd4c66ff7bd0800000000000000
+      internalID: -2630112712339952445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_5
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 2273
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e84302a6477ee50800000000000000
+      internalID: 6838562558341058139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_6
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 2254
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a9e18e589250020800000000000000
+      internalID: 2307296039198956083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_7
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2252
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3913ccd4eb66f790800000000000000
+      internalID: -7496685899011122885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_8
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 2252
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60c7dfe7be1f5b40800000000000000
+      internalID: 5431093450983850095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_9
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 2244
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7b1be13e3ad3b80800000000000000
+      internalID: -8413388332990351419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_10
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 2252
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6848389b624e2d70800000000000000
+      internalID: 9020220133552441450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_11
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 2258
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b5984dc171cc1a0800000000000000
+      internalID: -6788025125761885420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_12
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 2238
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2c1283c4b434790800000000000000
+      internalID: -7547105759811484941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_13
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 2249
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da8e5e582548af40800000000000000
+      internalID: 5739913764767959766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_14
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2251
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a7089db6d0c7620800000000000000
+      internalID: 2773106227415120525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_15
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2243
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee833ae937a4cf300800000000000000
+      internalID: 287186336688060654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_16
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 2224
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ebb1705a275cad0800000000000000
+      internalID: -2682611949914833359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_17
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 2152
+        width: 90
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabe4e6d7e56f54e0800000000000000
+      internalID: -1990760463857292371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_18
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 2241
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728f677cf3fa10eb0800000000000000
+      internalID: -4755327043062269913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_19
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 2243
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdd8d72914cffa30800000000000000
+      internalID: 4251332185582788085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_20
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 2232
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921ff127b08d39ff0800000000000000
+      internalID: -30443228790525655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_21
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 2209
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878b0da216f602260800000000000000
+      internalID: 7070773878092511352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_22
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 2226
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4624ee294f1e3a0800000000000000
+      internalID: -6637755463867669324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_23
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 2212
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a769d12791b83790800000000000000
+      internalID: -7550089512620562527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_24
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2187
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda7d0f7d22ae0b90800000000000000
+      internalID: -7273698031867954468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_25
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 2214
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044101f48fd519d10800000000000000
+      internalID: 2130587419782681664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_26
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2206
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4af965207035c1b0800000000000000
+      internalID: -5637046100362134964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_27
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 2217
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6c6875feda52b50800000000000000
+      internalID: 6567846875066975970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_28
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 2209
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a4c4555a9f4e3f0800000000000000
+      internalID: -872297939307050338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_29
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 2155
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca691cf37b684cd0800000000000000
+      internalID: -2573689041147303232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_30
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 2221
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93ffc4d31cb793d0800000000000000
+      internalID: -3199882216862649444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_31
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 2207
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf43597905983c5a0800000000000000
+      internalID: -6502202457759337220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_32
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 2222
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4674096c0acddbfc0800000000000000
+      internalID: -3477380754175932572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_33
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 2215
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e50bc9745902ea0800000000000000
+      internalID: -5899551377051328986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_34
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 2222
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a9afc6eb857fe60800000000000000
+      internalID: 7995957238314998378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_35
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2207
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4224c35532e5630800000000000000
+      internalID: 3917607574849070294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_36
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2191
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cd8be6570aa94c0800000000000000
+      internalID: -4279932069633008578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_37
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 2212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a0cd491d549a4e0800000000000000
+      internalID: -1969966595549951411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_38
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2210
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ade083ba6048710800000000000000
+      internalID: 1694486692247820851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_39
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 2205
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6a2d3819be8c830800000000000000
+      internalID: 4091779271680501486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_40
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 2206
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0afd9242db8a620800000000000000
+      internalID: 2785684332547645689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_41
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 2202
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15ba34c0a2e89350800000000000000
+      internalID: 6023813681722864923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_42
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 2192
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886d715b9bc6ecb10800000000000000
+      internalID: 2003658429089437320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_43
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 2187
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65095a487bfe2230800000000000000
+      internalID: 3616104044887082347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_44
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 2186
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880fb829cb8ca2b20800000000000000
+      internalID: 3110519204890800264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_45
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2199
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cbd135eaf6dde80800000000000000
+      internalID: -8152236955961279474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_46
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 2189
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66571bc22f9b88bf0800000000000000
+      internalID: -321802923573938842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_47
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 2197
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a676f8c514d9e88b0800000000000000
+      internalID: -5148004419986561174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_48
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 2185
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eff19e18db728150800000000000000
+      internalID: 5873393032200585193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_49
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 2195
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d0ea46b64760710800000000000000
+      internalID: 1659141517332057493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_50
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 2180
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13674e36083a8c8e0800000000000000
+      internalID: -1672907489741081039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_51
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 2201
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2f77eb765b84750800000000000000
+      internalID: 6289476336804688591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_52
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 2177
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe8f339fc90b64a0800000000000000
+      internalID: -6599170041848033603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_53
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b607923c69a6ca0800000000000000
+      internalID: -6022835786696594631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_54
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2175
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38f309eb0b730d30800000000000000
+      internalID: 4396492952327944255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_55
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 2187
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c495877c178e109e0800000000000000
+      internalID: -1656787612520130228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_56
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 2188
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda2f3070c0fdcd30800000000000000
+      internalID: 4453480315846863581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_57
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 2164
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba8fa981594b6140800000000000000
+      internalID: 4713942049524517563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_58
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 2188
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d033962cfea4d6b40800000000000000
+      internalID: 5435082718925370125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_59
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2190
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b7864d2a2afb9c0800000000000000
+      internalID: -3909227131302282458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_60
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 2185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad41f0e3e83a02520800000000000000
+      internalID: 2675318009979933914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_61
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 2181
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdc100cc64fa5140800000000000000
+      internalID: 4709345108284263882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_62
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 2178
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e966d18350c666ae0800000000000000
+      internalID: -1556437851537840482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_63
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 2177
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad143a672eeb2ddb0800000000000000
+      internalID: -4768539175569636902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_64
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2097
+        width: 95
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa3ca3ddf8eef970800000000000000
+      internalID: 8790719699549436662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_65
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 2006
+        width: 158
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdd26bee8052ca40800000000000000
+      internalID: 5386956679053237748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_66
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 2186
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d57506d5d8ed78f0800000000000000
+      internalID: -541020375098231336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_67
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1955
+        width: 203
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b0027130bf69090800000000000000
+      internalID: -8027953295049880776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_68
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2148
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb16d2340ec1f5bf0800000000000000
+      internalID: -333516097876827716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_69
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 2176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edb0351137d29da0800000000000000
+      internalID: -5939448352739377694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_70
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2164
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9305f3a5d8d31e250800000000000000
+      internalID: 5972122258183770169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_71
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2166
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f3044cbaae09cd0800000000000000
+      internalID: -2553282965266219121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_72
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 2169
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69379ff985a11be0800000000000000
+      internalID: -1508242388075202198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_73
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 2154
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5d2cb96cac2b2f0800000000000000
+      internalID: -958480816310921824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_74
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 2155
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0b1b2e028d6f300800000000000000
+      internalID: 285653262138454236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_75
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 2164
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff5002b145e689f0800000000000000
+      internalID: -466433441064263687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_76
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2154
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feb9c7bc33fd8940800000000000000
+      internalID: 5300159778591981300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_77
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 2130
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280b918406cecff50800000000000000
+      internalID: 6916663026004897922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_78
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 2151
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060a4e4affbbd03e0800000000000000
+      internalID: -2085804345745170336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_79
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 2102
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc86ba81a9d54b50800000000000000
+      internalID: 6576902118684658895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_80
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 2154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61af7e3eb2e3f730800000000000000
+      internalID: 4031815398146941292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_81
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 2143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca99dcf104c6d190800000000000000
+      internalID: -7937941780377789750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_82
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 2133
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47eb0f2352a65fca0800000000000000
+      internalID: -5983759821890863500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_83
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2128
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c0442d03208e4b0800000000000000
+      internalID: -5411072543576290173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_84
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2138
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e39eafc93ce518c0800000000000000
+      internalID: -4029054558571424796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_85
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 2137
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9abbdeb5e7bab80800000000000000
+      internalID: -8382467348124423717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_86
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 2125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5e0e49d42a5e310800000000000000
+      internalID: 1433730510481319389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_87
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 2127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d57d2e0874d2f080800000000000000
+      internalID: -9155021480391772718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_88
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2111
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05491ac3134b81bf0800000000000000
+      internalID: -353334447184964528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_89
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 2133
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7fea3af08d8ccc0800000000000000
+      internalID: -3690462332947859457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_90
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2126
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3e8848c289300c0800000000000000
+      internalID: -4610674276527709270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_91
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 2126
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc2973cece762e70800000000000000
+      internalID: 9090092324401786052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_92
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2121
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e8e6bc58ca2a990800000000000000
+      internalID: -7376143549035803062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_93
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 2120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d727cf17165f15600800000000000000
+      internalID: 455414836214133373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_94
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 2116
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb6b13d022ad47d0800000000000000
+      internalID: -2932509520483882041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_95
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 2114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0602669cf8e10d5a0800000000000000
+      internalID: -6498660659387555744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_96
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 2115
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824a52570309e5320800000000000000
+      internalID: 2548632976936510504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_97
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2094
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414f1abc83ef47f80800000000000000
+      internalID: -8109577509099408364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_98
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 2107
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8244b6dd16e64e0800000000000000
+      internalID: -1986542782008514354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_99
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 2107
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b881d249a1dc8ba0800000000000000
+      internalID: -6085258471583676233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_100
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 2097
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417783e12874312b0800000000000000
+      internalID: -5615065686222538988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_101
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 2084
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b0cb8fc3a1b08e0800000000000000
+      internalID: -1726257182993020034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_102
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 2076
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f025a903cfe68f30800000000000000
+      internalID: 4577609692228165875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_103
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 2094
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b99363b7b141c20800000000000000
+      internalID: 3176193853207714674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_104
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2092
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545f9c7f209c47650800000000000000
+      internalID: 6229825199144564037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_105
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2089
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f862403d27a13a3e0800000000000000
+      internalID: -2043760725427214705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_106
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 2090
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66767271bfe7294c0800000000000000
+      internalID: -4282220678785570970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_107
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 2090
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9291484f8b38a70800000000000000
+      internalID: 8828103054904076705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_108
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 2063
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d0982a28a7ccda0800000000000000
+      internalID: -5923224708407816846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_109
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 2057
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48c4278c54dde880800000000000000
+      internalID: -8579968221201512374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_110
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 2085
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1186ea4a5b71295e0800000000000000
+      internalID: -1904433623504885743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_111
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 2082
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0089ba969d60d5190800000000000000
+      internalID: -7972208234525386752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_112
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2057
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f7c9535c4166c70800000000000000
+      internalID: 8963874945568112386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_113
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 2072
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e12cd3da61ea8c10800000000000000
+      internalID: 2056704028785254882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_114
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 2071
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea79f6d29839c0b30800000000000000
+      internalID: 4254937965340366766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_115
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 2072
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e37c690892b1400800000000000000
+      internalID: 295875832785092239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_116
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 2053
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4552d2e811b72d8c0800000000000000
+      internalID: -3975980205684742828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_117
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 2062
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c391b514ac044930800000000000000
+      internalID: 4126437057456346053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_118
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 2057
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe3d6450a57dc90800000000000000
+      internalID: -7145143305090371612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_119
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 2056
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7037c99dd9a63c0800000000000000
+      internalID: -4365503330824026161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_120
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 2049
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166307363d6acffd0800000000000000
+      internalID: -2306785482283927967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_121
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2041
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77ad213660c745a0800000000000000
+      internalID: -6537044788960712833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_122
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 2040
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e665a269f60a683f0800000000000000
+      internalID: -898854674492664210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_123
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 2043
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55eb6e45e57b26c20800000000000000
+      internalID: 3198320301165690453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_124
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 2048
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41172589c51b74170800000000000000
+      internalID: 8162687860882960660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_125
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2039
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cde65a48e00cbd0800000000000000
+      internalID: -2612071821000909764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_126
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2050
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f66c0fef42f4a50800000000000000
+      internalID: 6507460663953485609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_127
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 2043
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b128a2fe8e54c8cc0800000000000000
+      internalID: -3707511526485491173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_128
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2047
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55822d98692751da0800000000000000
+      internalID: -5974743339754182571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_129
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 2039
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8497d7a7af1846df0800000000000000
+      internalID: -187882371645867704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_130
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 2051
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3033866b5feeeb00800000000000000
+      internalID: 859887754715279422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_131
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2037
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9432fc6c1b259e1f0800000000000000
+      internalID: -1015189317497183415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_132
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 2040
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7740ad759bf1b00800000000000000
+      internalID: 801563045666256835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_133
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2039
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6aeaa88136dfc5a0800000000000000
+      internalID: -6498740229037692306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_134
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2027
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3db69f9c69fe54c0800000000000000
+      internalID: -4296722749535634113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_135
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 2036
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e2682beba6b3bb0800000000000000
+      internalID: -4955249597719630309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_136
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 2031
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baca1b60422752250800000000000000
+      internalID: 5919262784305081515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_137
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 2032
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e7c2e07ff80d570800000000000000
+      internalID: 8489443588850875922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_138
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 2009
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169411be9c6a615a0800000000000000
+      internalID: -6550865221801391775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_139
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 2000
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7804912adf80988e0800000000000000
+      internalID: -1690810299661598585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_140
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2030
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6330d7cb39a0a8170800000000000000
+      internalID: 8181363302710706998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_141
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 2027
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d404fdb8ded829e0800000000000000
+      internalID: -1645820641322728234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_142
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 2012
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69624b8e21ec12cf0800000000000000
+      internalID: -278715121311406442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_143
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 2004
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e5be98622a42a40800000000000000
+      internalID: 5342573344374611486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_144
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 2006
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe6567d2b11fa490800000000000000
+      internalID: -7732942575356252430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_145
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2005
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4a65c9b2da67ac0800000000000000
+      internalID: -3857705627978128161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_146
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 2008
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5641e0ec96dd4390800000000000000
+      internalID: -7832368207651322278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_147
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1996
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee147b681ebf09410800000000000000
+      internalID: 1481961223451263470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_148
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 2001
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d7ef0ac421b38c0800000000000000
+      internalID: -4018598122170188387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_149
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 2007
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a0fc5a494fdb770800000000000000
+      internalID: 8628321380385884762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_150
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1999
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11deb90e2de34a00800000000000000
+      internalID: 739695545806672155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_151
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1983
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a1c1b6f2255edd0800000000000000
+      internalID: -2457467658046793078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_152
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1995
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed7620b81cde6900800000000000000
+      internalID: 679722592372162018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_153
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1993
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709845e7251192250800000000000000
+      internalID: 5920282231159687431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_154
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 1998
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173d4e7f3daea0d60800000000000000
+      internalID: 7857350696019219313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_155
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1989
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f844b2eef4f14f330800000000000000
+      internalID: 3743651618410415247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_156
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 1996
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0feaae0186e3320800000000000000
+      internalID: 2539581661749637328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_157
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1983
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2d5c69f42329ec0800000000000000
+      internalID: -3561729037883288905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_158
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1990
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d010df6b106965320800000000000000
+      internalID: 2546387573433762061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_159
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1986
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61cc05294f190de0800000000000000
+      internalID: -1366526612915568275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_160
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1984
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42018a64952ec2090800000000000000
+      internalID: -8057816760207273948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_161
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 1962
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9112d07d5908ae580800000000000000
+      internalID: -8797077541068398311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_162
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 1971
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217f8406765c77d30800000000000000
+      internalID: 4429225806329870098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_163
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 1986
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9962727bc6f33470800000000000000
+      internalID: 8373307485870778782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_164
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1951
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996fc8f5753e57c80800000000000000
+      internalID: -8325498371719760231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_165
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1982
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faf6f3ffa39b73d0800000000000000
+      internalID: -3207807925649736972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_166
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1972
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ace2cefe3975b50800000000000000
+      internalID: 6581892039094225473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_167
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1966
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf37444ecdcfae40800000000000000
+      internalID: 5669976741675220913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_168
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 1954
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10b1445aabc7cac0800000000000000
+      internalID: -3834872625264218082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_169
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1948
+        width: 69
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74578fc42a189df0800000000000000
+      internalID: -173359840250866566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_170
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 1954
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac80d5b2ed416010800000000000000
+      internalID: 1180310213456071843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_171
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1965
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e3388e8de933070800000000000000
+      internalID: 8084980410511212186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_172
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 1940
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd3491620d24d200800000000000000
+      internalID: 203837371388804546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_173
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1943
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccaa67de5d3eab300800000000000000
+      internalID: 268777635733482188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_174
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 1947
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f203703fdb00ccd30800000000000000
+      internalID: 4452934947388731439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_175
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1947
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9f518cdb62883c0800000000000000
+      internalID: -4357190042933397073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_176
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1937
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120a554682c8de460800000000000000
+      internalID: 7272623078383132705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_177
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1949
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2898901157dcf2670800000000000000
+      internalID: 8516251323061602690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_178
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1950
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42711af4080a167b0800000000000000
+      internalID: -5232724819075590364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_179
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 1927
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc5f3775a51a1940800000000000000
+      internalID: 5267546514577644758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_180
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 1937
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0de98692ac4efe0800000000000000
+      internalID: -1160580524757036855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_181
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 1932
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12602dd9fede7a7d0800000000000000
+      internalID: -2907093421043612127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_182
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1938
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eeab3da72e9aacb0800000000000000
+      internalID: -4851891755291005207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_183
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 1933
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f17d4416113dd420800000000000000
+      internalID: 2656333326118121973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_184
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1941
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daa2035c4770b880800000000000000
+      internalID: -8597240518956373287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_185
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1931
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9cb689f59f2f3c0800000000000000
+      internalID: -4327122102975215123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_186
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 1919
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7024345cc700180800000000000000
+      internalID: -9151177256138045497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_187
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 1928
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e240566d7ff75afb0800000000000000
+      internalID: -4637159538877463506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_188
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1911
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ccf5edc0ef3c670800000000000000
+      internalID: 8557963048157957210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_189
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1922
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519e8374e161f16a0800000000000000
+      internalID: -6476433419835741931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_190
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1914
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6e7176872eced80800000000000000
+      internalID: -8219946213104425243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_191
+      rect:
+        serializedVersion: 2
+        x: 2038
+        y: 1919
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30ca5f996304e2b0800000000000000
+      internalID: -5556312288088375238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_192
+      rect:
+        serializedVersion: 2
+        x: 2167
+        y: 1915
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681a19d0e46198ae0800000000000000
+      internalID: -1546680472534146682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_193
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 1902
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0bdd6d785566c90800000000000000
+      internalID: -7176954914254507821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saltso_194
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1900
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb585dbed8400330800000000000000
+      internalID: 3675017417430948852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      saltso_0: -6344066788937592833
+      saltso_1: 1881374682499891931
+      saltso_10: 9020220133552441450
+      saltso_100: -5615065686222538988
+      saltso_101: -1726257182993020034
+      saltso_102: 4577609692228165875
+      saltso_103: 3176193853207714674
+      saltso_104: 6229825199144564037
+      saltso_105: -2043760725427214705
+      saltso_106: -4282220678785570970
+      saltso_107: 8828103054904076705
+      saltso_108: -5923224708407816846
+      saltso_109: -8579968221201512374
+      saltso_11: -6788025125761885420
+      saltso_110: -1904433623504885743
+      saltso_111: -7972208234525386752
+      saltso_112: 8963874945568112386
+      saltso_113: 2056704028785254882
+      saltso_114: 4254937965340366766
+      saltso_115: 295875832785092239
+      saltso_116: -3975980205684742828
+      saltso_117: 4126437057456346053
+      saltso_118: -7145143305090371612
+      saltso_119: -4365503330824026161
+      saltso_12: -7547105759811484941
+      saltso_120: -2306785482283927967
+      saltso_121: -6537044788960712833
+      saltso_122: -898854674492664210
+      saltso_123: 3198320301165690453
+      saltso_124: 8162687860882960660
+      saltso_125: -2612071821000909764
+      saltso_126: 6507460663953485609
+      saltso_127: -3707511526485491173
+      saltso_128: -5974743339754182571
+      saltso_129: -187882371645867704
+      saltso_13: 5739913764767959766
+      saltso_130: 859887754715279422
+      saltso_131: -1015189317497183415
+      saltso_132: 801563045666256835
+      saltso_133: -6498740229037692306
+      saltso_134: -4296722749535634113
+      saltso_135: -4955249597719630309
+      saltso_136: 5919262784305081515
+      saltso_137: 8489443588850875922
+      saltso_138: -6550865221801391775
+      saltso_139: -1690810299661598585
+      saltso_14: 2773106227415120525
+      saltso_140: 8181363302710706998
+      saltso_141: -1645820641322728234
+      saltso_142: -278715121311406442
+      saltso_143: 5342573344374611486
+      saltso_144: -7732942575356252430
+      saltso_145: -3857705627978128161
+      saltso_146: -7832368207651322278
+      saltso_147: 1481961223451263470
+      saltso_148: -4018598122170188387
+      saltso_149: 8628321380385884762
+      saltso_15: 287186336688060654
+      saltso_150: 739695545806672155
+      saltso_151: -2457467658046793078
+      saltso_152: 679722592372162018
+      saltso_153: 5920282231159687431
+      saltso_154: 7857350696019219313
+      saltso_155: 3743651618410415247
+      saltso_156: 2539581661749637328
+      saltso_157: -3561729037883288905
+      saltso_158: 2546387573433762061
+      saltso_159: -1366526612915568275
+      saltso_16: -2682611949914833359
+      saltso_160: -8057816760207273948
+      saltso_161: -8797077541068398311
+      saltso_162: 4429225806329870098
+      saltso_163: 8373307485870778782
+      saltso_164: -8325498371719760231
+      saltso_165: -3207807925649736972
+      saltso_166: 6581892039094225473
+      saltso_167: 5669976741675220913
+      saltso_168: -3834872625264218082
+      saltso_169: -173359840250866566
+      saltso_17: -1990760463857292371
+      saltso_170: 1180310213456071843
+      saltso_171: 8084980410511212186
+      saltso_172: 203837371388804546
+      saltso_173: 268777635733482188
+      saltso_174: 4452934947388731439
+      saltso_175: -4357190042933397073
+      saltso_176: 7272623078383132705
+      saltso_177: 8516251323061602690
+      saltso_178: -5232724819075590364
+      saltso_179: 5267546514577644758
+      saltso_18: -4755327043062269913
+      saltso_180: -1160580524757036855
+      saltso_181: -2907093421043612127
+      saltso_182: -4851891755291005207
+      saltso_183: 2656333326118121973
+      saltso_184: -8597240518956373287
+      saltso_185: -4327122102975215123
+      saltso_186: -9151177256138045497
+      saltso_187: -4637159538877463506
+      saltso_188: 8557963048157957210
+      saltso_189: -6476433419835741931
+      saltso_19: 4251332185582788085
+      saltso_190: -8219946213104425243
+      saltso_191: -5556312288088375238
+      saltso_192: -1546680472534146682
+      saltso_193: -7176954914254507821
+      saltso_194: 3675017417430948852
+      saltso_2: -4647966230064023974
+      saltso_20: -30443228790525655
+      saltso_21: 7070773878092511352
+      saltso_22: -6637755463867669324
+      saltso_23: -7550089512620562527
+      saltso_24: -7273698031867954468
+      saltso_25: 2130587419782681664
+      saltso_26: -5637046100362134964
+      saltso_27: 6567846875066975970
+      saltso_28: -872297939307050338
+      saltso_29: -2573689041147303232
+      saltso_3: 6590216922573737415
+      saltso_30: -3199882216862649444
+      saltso_31: -6502202457759337220
+      saltso_32: -3477380754175932572
+      saltso_33: -5899551377051328986
+      saltso_34: 7995957238314998378
+      saltso_35: 3917607574849070294
+      saltso_36: -4279932069633008578
+      saltso_37: -1969966595549951411
+      saltso_38: 1694486692247820851
+      saltso_39: 4091779271680501486
+      saltso_4: -2630112712339952445
+      saltso_40: 2785684332547645689
+      saltso_41: 6023813681722864923
+      saltso_42: 2003658429089437320
+      saltso_43: 3616104044887082347
+      saltso_44: 3110519204890800264
+      saltso_45: -8152236955961279474
+      saltso_46: -321802923573938842
+      saltso_47: -5148004419986561174
+      saltso_48: 5873393032200585193
+      saltso_49: 1659141517332057493
+      saltso_5: 6838562558341058139
+      saltso_50: -1672907489741081039
+      saltso_51: 6289476336804688591
+      saltso_52: -6599170041848033603
+      saltso_53: -6022835786696594631
+      saltso_54: 4396492952327944255
+      saltso_55: -1656787612520130228
+      saltso_56: 4453480315846863581
+      saltso_57: 4713942049524517563
+      saltso_58: 5435082718925370125
+      saltso_59: -3909227131302282458
+      saltso_6: 2307296039198956083
+      saltso_60: 2675318009979933914
+      saltso_61: 4709345108284263882
+      saltso_62: -1556437851537840482
+      saltso_63: -4768539175569636902
+      saltso_64: 8790719699549436662
+      saltso_65: 5386956679053237748
+      saltso_66: -541020375098231336
+      saltso_67: -8027953295049880776
+      saltso_68: -333516097876827716
+      saltso_69: -5939448352739377694
+      saltso_7: -7496685899011122885
+      saltso_70: 5972122258183770169
+      saltso_71: -2553282965266219121
+      saltso_72: -1508242388075202198
+      saltso_73: -958480816310921824
+      saltso_74: 285653262138454236
+      saltso_75: -466433441064263687
+      saltso_76: 5300159778591981300
+      saltso_77: 6916663026004897922
+      saltso_78: -2085804345745170336
+      saltso_79: 6576902118684658895
+      saltso_8: 5431093450983850095
+      saltso_80: 4031815398146941292
+      saltso_81: -7937941780377789750
+      saltso_82: -5983759821890863500
+      saltso_83: -5411072543576290173
+      saltso_84: -4029054558571424796
+      saltso_85: -8382467348124423717
+      saltso_86: 1433730510481319389
+      saltso_87: -9155021480391772718
+      saltso_88: -353334447184964528
+      saltso_89: -3690462332947859457
+      saltso_9: -8413388332990351419
+      saltso_90: -4610674276527709270
+      saltso_91: 9090092324401786052
+      saltso_92: -7376143549035803062
+      saltso_93: 455414836214133373
+      saltso_94: -2932509520483882041
+      saltso_95: -6498660659387555744
+      saltso_96: 2548632976936510504
+      saltso_97: -8109577509099408364
+      saltso_98: -1986542782008514354
+      saltso_99: -6085258471583676233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

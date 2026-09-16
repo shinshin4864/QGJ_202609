@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   backgroundImages:
   - {fileID: 7818588663911406388, guid: b50fb58183ce3334db881856a0c8cef7, type: 3}
-  - {fileID: 3485129806715309085, guid: c838af5339035f34fac7f24cbb0b01c6, type: 3}
+  - {fileID: 9176332625645544900, guid: 775b5c53ca80b13498f794bd114a8669, type: 3}
   BGphoto: {fileID: 0}
 --- !u!114 &39539670
 MonoBehaviour:
@@ -458,8 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a4210c00e64b24486b1905dbf89718, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShowScore
-  is_show_score: 1
-  scoreTextField: {fileID: 889842143}
+  utilVar: {fileID: 0}
 --- !u!114 &889842143
 MonoBehaviour:
   m_ObjectHideFlags: 0

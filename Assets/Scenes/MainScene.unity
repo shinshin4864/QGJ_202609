@@ -706,7 +706,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2868539044483428322, guid: ad7139ce1358740b09e6c61d4c74b25c, type: 3}
+  m_Sprite: {fileID: 2868539044483428322, guid: 8406c9b6f2a86d147bd8b9326dddf451, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4364034832326165938, guid: 61cb7304428524459a774a55326e2c12, type: 3}
+  m_Sprite: {fileID: -57933577528528250, guid: 69ec7b1b7d5aae349ad52a88b4a78223, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2061,8 +2061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd206786e1824ae99f9bef8981d791f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BinManager
-  bin_opened: {fileID: 21300000, guid: 9d50ffb5e863c4cd98334344b4b2282d, type: 3}
-  bin_closed: {fileID: 21300000, guid: 4d00616d1791b49e7b8074240bdfbf42, type: 3}
+  bin_opened: {fileID: 4161926021552291591, guid: 8480f9e662d730245adf8247805f7d37, type: 3}
+  bin_closed: {fileID: 6352558933802115135, guid: dde77d0e36e7bb14d83973ad6dfa58aa, type: 3}
   showScore: {fileID: 2143177768}
   soundAssetRef: {fileID: 11400000, guid: 51de1d547470041798d4578b782e199a, type: 2}
   se_audiosource: {fileID: 925764431}
@@ -2115,6 +2115,7 @@ GameObject:
   - component: {fileID: 1808367093}
   - component: {fileID: 1808367092}
   - component: {fileID: 1808367091}
+  - component: {fileID: 1808367094}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2196,6 +2197,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1808367094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808367090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &1856816777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2406,11 +2451,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: f4df7454c83927d4ba59a0b85f0326d5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2822,6 +2867,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: topping
       objectReference: {fileID: 0}
+    - target: {fileID: 756859992666897401, guid: c5805a7d678804851be4bc771f152e58, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5213589720276085118, guid: 3b61b04b854732645b790a11727849a5, type: 3}
     - target: {fileID: 888194224697171369, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_Value
       value: 0
@@ -2857,7 +2906,7 @@ PrefabInstance:
     - target: {fileID: 1685343054737104103, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -6604776812909603590, guid: 6bfb6a3b92b794fde8fc2f856336fee6, type: 3}
+      objectReference: {fileID: 5919907900004680991, guid: 1e57efb5609e7c1479adf422dc58f68b, type: 3}
     - target: {fileID: 2141391512578173135, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_SizeDelta.x
       value: 402
@@ -2897,7 +2946,7 @@ PrefabInstance:
     - target: {fileID: 3892963522711961788, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -9032648240131754058, guid: 634a8cc43ab3e47d5b51020e3f99a354, type: 3}
+      objectReference: {fileID: 1312417274210942783, guid: 363beeb74fd667f4b8f115c35001fb74, type: 3}
     - target: {fileID: 4616967438151198844, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_SizeDelta.x
       value: 2000
@@ -3061,11 +3110,11 @@ PrefabInstance:
     - target: {fileID: 7680088218339083126, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -67861805864525146, guid: 013bfa4b47e2b4e75ba77c362a830479, type: 3}
+      objectReference: {fileID: 1569846364961366284, guid: 27c02128b4b219c439a08047ec503d54, type: 3}
     - target: {fileID: 7800692840468964936, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 8374363231432968964, guid: f022632cb114e411cb0604ad8886356e, type: 3}
+      objectReference: {fileID: -6344066788937592833, guid: b6f1e82bb98a25642a18c8f90920ad80, type: 3}
     - target: {fileID: 8040327670425930002, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: param
       value: 
@@ -3117,11 +3166,11 @@ PrefabInstance:
     - target: {fileID: 8550345996784095093, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1999f921b99b04eb2bb09886627dca2e, type: 3}
+      objectReference: {fileID: 8041774921739049974, guid: 75dbd2cd79ebe9147bdbf8ec537b2959, type: 3}
     - target: {fileID: 8713089685956699815, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8173923911043149387, guid: 6d14715a95a8b47cabf268bfd5dababf, type: 3}
+      objectReference: {fileID: 5211312079434179413, guid: 2cb7aecbabfaed74596f767a672accc3, type: 3}
     - target: {fileID: 8937490155654128315, guid: c5805a7d678804851be4bc771f152e58, type: 3}
       propertyPath: m_SizeDelta.x
       value: 3999.9998
