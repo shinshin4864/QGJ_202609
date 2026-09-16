@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems; 
 using UnityEngine.SceneManagement; 
 using TMPro;
@@ -9,46 +10,58 @@ public enum StructureType
 {
     None,      // 何もしない
     Restart,  // タイトル画面,
-    QuitApp     // アプリを終了
+    QuitApp,     // アプリを終了
 }
 
-public class Ending : MonoBehaviour, IPointerClickHandler
+public class Ending : MonoBehaviour
 {
-    
-    [Header("この構造物の種類を設定")]
-    public StructureType structureType; // インスペクターで選択可能にする
+    [SerializeField] private TextMeshProUGUI ResultText;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip GameOverBGM;
+    [SerializeField] private AudioClip GameClearBGM;
+    [SerializeField] private AudioClip ResultBGM;
+    //gameoverかgameclearかを判定するフラグ
+    public static bool is_clear = false;
 
     public void Start()
     {
-    }
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (eventData.button != PointerEventData.InputButton.Left) return;
-
-        Debug.Log(gameObject.name + "is clicked.");
-
-        ExecuteStructureAction();
-    }
-
-    void ExecuteStructureAction()
-    {
-        switch (structureType)
+        audioSource = GetComponent<AudioSource>();
+        if (is_clear)
         {
-            case StructureType.Restart:
-                Debug.Log("button restart");
-                SceneManager.LoadScene("Start");
-                break;
-
-
-            case StructureType.QuitApp:
-                Debug.Log("button quit");
-                QuitGame();
-                break;
-
-            default:
-                Debug.LogWarning("Unknown structure type: " + structureType);
-                break;
+            ResultText.text = "GameClear!";
+            audioSource.generator = GameClearBGM;
+            audioSource.Play();
+            Invoke(nameof(playResultBGM), 4.0f);
         }
+        else
+        {
+            ResultText.text = "Game Over";
+            audioSource.generator = GameOverBGM;
+            audioSource.Play();
+            // Invoke(nameof(playResultBGM), 3.0f);
+        }
+        GameObject Restart = GameObject.Find("Restart");
+        Button RestartBTN = Restart.GetComponent<Button>();
+        RestartBTN.onClick.AddListener(ClickRestartBTN);
+
+        GameObject QuitApp = GameObject.Find("QuitApp");
+        Button QuitAppBTN = QuitApp.GetComponent<Button>();
+        QuitAppBTN.onClick.AddListener(ClickQuitAppBTN);
+    }
+    private void playResultBGM()
+    {
+        audioSource.generator = ResultBGM;
+        audioSource.loop = true;
+        audioSource.Play();
+    }
+    private void ClickRestartBTN()
+    {
+        SceneManager.LoadScene("Start");
+    }
+
+    private void ClickQuitAppBTN()
+    {
+        QuitGame();
     }
 
     // アプリ終了処理（エディタ対策込み）
