@@ -31,7 +31,6 @@ public class ScoreSystem : MonoBehaviour
         PlayerPrefs.SetFloat("score", score);
         PlayerPrefs.Save(); 
 
-        
         Judgescore(score);
     }
 
