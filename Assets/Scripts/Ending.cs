@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems; 
 using UnityEngine.SceneManagement; 
 using TMPro;
@@ -12,53 +13,48 @@ public enum StructureType
     QuitApp,     // アプリを終了
 }
 
-public class Ending : MonoBehaviour, IPointerClickHandler
+public class Ending : MonoBehaviour
 {
-    private TextMeshProUGUI ResultText;
-    private bool is_success;
-    [Header("この構造物の種類を設定")]
-    public StructureType structureType; 
+    [SerializeField] private TextMeshProUGUI ResultText;
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip GameOverBGM;
+    [SerializeField] private AudioClip GameClearBGM;
+    //gameoverかgameclearかを判定するフラグ
+    public static bool is_clear = false;
 
     public void Start()
     {
-        if (is_success)
+        audioSource = GetComponent<AudioSource>();
+        if (is_clear)
         {
             ResultText.text = "GameClear!";
+            audioSource.generator = GameClearBGM;
+            audioSource.Play();
+            
         }
         else
         {
             ResultText.text = "Game Over";
+            audioSource.generator = GameOverBGM;
+            audioSource.Play();
         }
+        GameObject Restart = GameObject.Find("Restart");
+        Button RestartBTN = Restart.GetComponent<Button>();
+        RestartBTN.onClick.AddListener(ClickRestartBTN);
+
+        GameObject QuitApp = GameObject.Find("QuitApp");
+        Button QuitAppBTN = QuitApp.GetComponent<Button>();
+        QuitAppBTN.onClick.AddListener(ClickQuitAppBTN);
     }
-    public void OnPointerClick(PointerEventData eventData)
+
+    private void ClickRestartBTN()
     {
-        if (eventData.button != PointerEventData.InputButton.Left) return;
-
-        Debug.Log(gameObject.name + "is clicked.");
-
-        ExecuteStructureAction();
+        SceneManager.LoadScene("Start");
     }
 
-    void ExecuteStructureAction()
+    private void ClickQuitAppBTN()
     {
-        switch (structureType)
-        {
-            case StructureType.Restart:
-                Debug.Log("button restart");
-                SceneManager.LoadScene("Start");
-                break;
-
-
-            case StructureType.QuitApp:
-                Debug.Log("button quit");
-                QuitGame();
-                break;
-
-                
-            default:
-                Debug.LogWarning("Unknown structure type: " + structureType);
-                break;
-        }
+        QuitGame();
     }
 
     // アプリ終了処理（エディタ対策込み）

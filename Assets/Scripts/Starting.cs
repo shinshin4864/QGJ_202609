@@ -8,6 +8,8 @@ using TMPro;
 public class Starting : MonoBehaviour
 {
     private TextMeshProUGUI TextMeshPro;
+    private AudioSource audiosSource;
+    public AudioClip titleBGM;
     [SerializeField] private GameObject fourth;
     [Header("UI要素の参照")]
     [SerializeField] private Button firstButton;    // 1番上のボタン（切替用）
@@ -31,6 +33,11 @@ public class Starting : MonoBehaviour
 
         // 最初の状態をセット
         UpdateUI();
+
+        // AudioSourceコンポーネントを取得
+        audiosSource = GetComponent<AudioSource>();
+        //audiosSource.clip = titleBGM;
+        audiosSource.Play();
     }
 
     // 1番上のボタンを押したとき（モード切替）

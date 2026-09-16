@@ -15,8 +15,7 @@ public class DebugSc : MonoBehaviour
     {
         if (doDebug)
         {
-            PlayerPrefs.SetFloat("money",flo);
-            PlayerPrefs.Save();
+            ScoreSystem.money = flo;
             doDebug = false;
 
         }

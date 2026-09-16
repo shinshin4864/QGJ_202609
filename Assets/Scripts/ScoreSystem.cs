@@ -8,7 +8,7 @@ public class ScoreSystem : MonoBehaviour
 {
 
     private static float score = 0.0f;
-    private static float money = 0.0f;
+    public static float money = 0.0f;
     private static float star = 0.0f;
     private static int[] comments = new int[2];
     [SerializeField] private UtilVar utilVar;
