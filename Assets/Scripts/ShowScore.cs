@@ -31,7 +31,7 @@ public class ShowScore : MonoBehaviour
         }
         if (scoreTextField != null)
         {
-            float star = PlayerPrefs.GetFloat("star", 0f);
+            float star = ScoreSystem.star;
             float money = ScoreSystem.money;
             if (is_show_score == false)
             {
