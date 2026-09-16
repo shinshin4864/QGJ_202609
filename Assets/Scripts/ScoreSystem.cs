@@ -7,13 +7,11 @@ using System;
 public class ScoreSystem : MonoBehaviour
 {
 
-    private static float score = 0.0f;
-    public static float money = 0.0f;
-    public static float star = 0.0f;
-    private static int[] comments = new int[2];
+    protected static float current_money = 500.0f;
+    protected static int[] current_comments = new int[2]{5, 1};
     [SerializeField] private UtilVar utilVar;
 
-    public void SolveResult(
+    protected void SolveResult(
         List<int> ordered_toppings,
         List<int> applied_toppings,
         int ordered_status,
@@ -23,28 +21,26 @@ public class ScoreSystem : MonoBehaviour
     {
         List<int>[] toppings_comparison = new List<int>[2];
         toppings_comparison = CompareToppings(ordered_toppings, applied_toppings);
-        if (toppings_comparison[0].Count > 0 
+        float income = 0.0f;
+
+        if (!(toppings_comparison[0].Count > 0 
             || toppings_comparison[1].Count > 0
-            || !CompareEggStatus(ordered_status, applied_status)
+            || !CompareEggStatus(ordered_status, applied_status))
         )
         {
-            return;
+            foreach (int x in ordered_toppings)
+            {
+                EggCommonParam.ToppingsType toppingsType = (EggCommonParam.ToppingsType)Enum.ToObject(typeof(EggCommonParam.ToppingsType), x);
+                income += utilVar.topping_price[toppingsType];
+            }
+            EggCommonParam.EggStatusIndex eggStatusIndex = (EggCommonParam.EggStatusIndex)Enum.ToObject(typeof(EggCommonParam.EggStatusIndex), ordered_status);
+            income += utilVar.egg_status_price[eggStatusIndex];
         }
-        float income = 0.0f;
-        foreach (int x in ordered_toppings)
-        {
-            EggCommonParam.ToppingsType toppingsType = (EggCommonParam.ToppingsType)Enum.ToObject(typeof(EggCommonParam.ToppingsType), x);
-            income += utilVar.topping_price[toppingsType];
-        }
-        EggCommonParam.EggStatusIndex eggStatusIndex = (EggCommonParam.EggStatusIndex)Enum.ToObject(typeof(EggCommonParam.EggStatusIndex), ordered_status);
-        income += utilVar.egg_status_price[eggStatusIndex];
 
-        money += income;
+        current_money += income - utilVar.egg_cost;
 
-        comments[0] = comments[0] + CompareTime(waiting_time, ordered_status);
-        comments[1] = comments[1] + 1;
-
-        star = comments[0] / comments[1];
+        current_comments[0] = current_comments[0] + CompareTime(waiting_time, ordered_status);
+        current_comments[1] = current_comments[1] + 1;
     }
 
     private List<int>[] CompareToppings(
@@ -72,85 +68,16 @@ public class ScoreSystem : MonoBehaviour
     )
     {
         float standard_time = (utilVar.play_time / 4) * ordered_status;
-        int multiply = Convert.ToInt32(Math.Floor(waiting_time / standard_time));
-        multiply = Math.Clamp(multiply, 2, 6);
-        int personal_star = 7 - multiply;
+        float multiply = Convert.ToInt32(Math.Floor(waiting_time / standard_time));
+        multiply = Math.Clamp(multiply, 1, 2);
+        int personal_star = (int)Math.Round((5 - ((multiply - 1) * 5)));
+        print(personal_star);
         return personal_star;
     }
 
-
-
-
-    Dictionary<int, int> rank2money = new Dictionary<int, int>()
+    public void LoseNEggs(int n)
     {
-        {1, 100},
-        {2, 200},
-        {3, 300},
-        {4, 400},
-        {5, 500}
-    };
-
-    public void CheckScore(int rank, float order_time)
-    {
-
-        AddScore(rank);
-        AddMoney(rank);
-        RemoveScore(rank, order_time);
-    }
-    void AddScore(int rank)
-    {
-        score += rank;
-        PlayerPrefs.SetFloat("score", score);
-        PlayerPrefs.Save(); 
-
-        Judgescore(score);
+        current_money -= utilVar.egg_cost * n;
     }
 
-    void AddMoney(int rank)
-    {
-        if (rank2money.ContainsKey(rank))
-        {
-            money += rank2money[rank];
-            PlayerPrefs.SetFloat("money", money);
-            PlayerPrefs.Save(); 
-        }
-        else
-        {
-            Debug.LogWarning("存在しないランクです: " + rank);
-        }
-    }
-    void RemoveScore(int rank, float order_time)
-    {
-        score -= rank;
-        if (score < 0) score = 0; // スコアが負にならないようにする
-        PlayerPrefs.SetFloat("score", score);
-        PlayerPrefs.Save(); 
-    }
-    //スコアから星の数を判定する関数
-    void Judgescore(float currentScore)
-    {
-        if (currentScore >= 1000)
-        {
-            star = 3f;
-        }
-        else if (currentScore >= 800)
-        {
-            star = 2.5f;
-        }
-        else if (currentScore >= 600)
-        {
-            star = 2f;
-        }
-        else if (currentScore >= 400)
-        {
-            star = 1f;
-        }
-        else
-        {
-            star = 0.5f;
-        }
-
-        PlayerPrefs.SetFloat("star", star);
-        PlayerPrefs.Save();
-    }
 }

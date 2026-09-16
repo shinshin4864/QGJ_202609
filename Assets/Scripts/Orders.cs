@@ -3,12 +3,16 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using TMPro;
+using System.Collections;
 
 public class Orders : MonoBehaviour
 {
+    [SerializeField] private SoundAssetRef soundAssetRef;
+    [SerializeField] private AudioSource se_audiosource;
     private EggCommonParam.EggStatusIndex ordered_egg_status;
     private List<EggCommonParam.ToppingsType> ordered_toppings_list;
     private List<int> ordered_toppings_idx_list;
+    [SerializeField] private UtilVar utilVar;
     private float time_elapsed = 0.0f;
     private bool is_timer_working = false;
     void Start()
@@ -16,9 +20,29 @@ public class Orders : MonoBehaviour
         ordered_egg_status = GetRandomEggStatus();
         ordered_toppings_list = GetRandomToppingTypes();
         TMP_Text order_text = this.transform.Find("order_content").GetComponent<TMP_Text>();
-        order_text.text = ordered_egg_status + "\n\n" + String.Join("\n", ordered_toppings_list);
+        List<string> topping_list_jpn = new List<string>();
+        foreach (EggCommonParam.ToppingsType x in ordered_toppings_list)
+        {
+            topping_list_jpn.Add(utilVar.toppings_name_e2j[x]);
+        }
+        order_text.text = utilVar.egg_status_name_e2j[ordered_egg_status]+ "\n\n" + String.Join("\n", topping_list_jpn);
         time_elapsed = 0.0f;
         is_timer_working = true;
+
+        if (this.name == "receipt")
+        {
+            return;
+        }
+        int random_character = UnityEngine.Random.Range(0,2);
+        AudioClip[] egg_status_narration = random_character == 0 ? soundAssetRef.egg_status_tsumugi : soundAssetRef.egg_status_metan;
+        AudioClip[] toppings_narration = random_character == 0 ? soundAssetRef.toppings_tsumugi : soundAssetRef.toppings_metan;
+        List<AudioClip> narrations = new List<AudioClip>();
+        narrations.Add(egg_status_narration[(int)ordered_egg_status - 1]);
+        foreach (EggCommonParam.ToppingsType x in ordered_toppings_list)
+        {
+            narrations.Add(toppings_narration[(int)x]);
+        }
+        StartCoroutine(PlayOrderNarration(narrations));
     }
 
     void Update()
@@ -47,7 +71,8 @@ public class Orders : MonoBehaviour
 
     private List<EggCommonParam.ToppingsType> GetRandomToppingTypes()
     {
-        List<EggCommonParam.ToppingsType> ordered_toppings_list = new List<EggCommonParam.ToppingsType>();
+        ordered_toppings_list = new List<EggCommonParam.ToppingsType>();
+        ordered_toppings_idx_list = new List<int>();
         List<int> ordered_already = new List<int>();
         int toppings_count = UnityEngine.Random.Range(
             0, Enum.GetNames(typeof(EggCommonParam.ToppingsType)).Length - 1
@@ -92,5 +117,14 @@ public class Orders : MonoBehaviour
     {
         is_timer_working = false;
         return time_elapsed;
+    }
+
+    IEnumerator PlayOrderNarration(List<AudioClip> narrations)
+    {
+        foreach (AudioClip x in narrations)
+        {
+            se_audiosource.PlayOneShot(x);
+            yield return new WaitForSeconds(0.4f);
+        }
     }
 }

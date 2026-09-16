@@ -9,10 +9,12 @@ using UnityEngine.Rendering.Universal;
 using UnityEngine.InputSystem.Controls;
 using NUnit.Framework;
 using Unity.VisualScripting;
+using UnityEditor;
 
 public class Egg : MonoBehaviour
 {
-
+    public SoundAssetRef soundAssetRef;
+    public AudioSource se_audiosource;
     public enum EggStatusIndex
     {
         UNBROKEN = 0,
@@ -24,7 +26,7 @@ public class Egg : MonoBehaviour
     }
 
     public EggCommonParam param;
-    protected List<int> applied_toppings = new List<int>(); 
+    protected static List<int>[] applied_toppings = new List<int>[3]; 
 
     private GameObject egg_gobj;
     private bool is_egg_prepared = false;
@@ -40,6 +42,9 @@ public class Egg : MonoBehaviour
 
     protected virtual void Start()
     {
+        for (int i = 0; i < 3; i++){
+            applied_toppings[i] = new List<int>();
+        }
         egg_gobj = this.gameObject.transform.Find("egg").gameObject;
         SwitchEggStatus(EggCommonParam.EggStatusIndex.NO_EGG);
         is_egg_prepared = false;
@@ -68,12 +73,12 @@ public class Egg : MonoBehaviour
                 is_egg_prepared = false;
                 is_new_egg_usable = false;
                 is_cooking[GetMyIdx()] = true;
-                //StartCoroutine(Timer());
             }
             else
             {
                 SwitchEggStatus(EggCommonParam.EggStatusIndex.UNBROKEN);
                 is_egg_prepared = true;
+                se_audiosource.PlayOneShot(soundAssetRef.call_egg_se);
             }
         }
 
@@ -112,7 +117,9 @@ public class Egg : MonoBehaviour
 
     public void SetFocus(bool do_focus)
     {
-        this.gameObject.transform.Find("ray").gameObject.SetActive(do_focus);
+        float alpha = do_focus ? 0.28f : 0.06f;
+        Color color = new Color(0.96f, 0.94f, 0.78f, alpha);
+        this.gameObject.transform.Find("ray").gameObject.GetComponent<UnityEngine.UI.Image>().color = color;
         is_focused[GetMyIdx()] = do_focus;
     }
 
@@ -127,8 +134,19 @@ public class Egg : MonoBehaviour
         EggSystemInfo eggSystemInfo = new EggSystemInfo()
         {
             egg_final_status = egg_status[GetMyIdx()],
-            egg_applied_toppings = applied_toppings
+            egg_applied_toppings = applied_toppings[GetMyIdx()]
         };
         return eggSystemInfo;
+    }
+
+    public void ResetEggSystem(){
+        applied_toppings[GetMyIdx()] = new List<int>();
+        SwitchEggStatus(EggCommonParam.EggStatusIndex.NO_EGG);
+        GameObject[] topping_gobjs = GameObject.FindGameObjectsWithTag("topping");
+        foreach (GameObject x in topping_gobjs){
+            x.SetActive(false);
+        }
+        is_cooking[GetMyIdx()] = false;
+        is_new_egg_usable = true;
     }
 }
