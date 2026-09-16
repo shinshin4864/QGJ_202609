@@ -8,7 +8,7 @@ using TMPro;
 public class Starting : MonoBehaviour
 {
     private TextMeshProUGUI TextMeshPro;
-    GameObject Fourth;
+    [SerializeField] private GameObject fourth;
     [Header("UI要素の参照")]
     [SerializeField] private Button firstButton;    // 1番上のボタン（切替用）
     [SerializeField] private Button secondButton1;   // 2番目のボタン
@@ -56,7 +56,7 @@ public class Starting : MonoBehaviour
             firstButtonText.text = "スタート";
             secondButtonText.text = "チュートリアル";
             thirdButtonText.text = "終了";
-            Fourth.SetActive(false);
+            fourth.SetActive(false);
         }
         else if (currentMode == 1)
         {
@@ -64,7 +64,7 @@ public class Starting : MonoBehaviour
             secondButtonText.text = "ノーマル";
             thirdButtonText.text = "ハード";
             forthButtonText.text = "戻る";
-            Fourth.SetActive(true);
+            fourth.SetActive(true);
         }
     }
 
