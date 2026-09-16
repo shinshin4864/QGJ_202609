@@ -9,17 +9,26 @@ public enum StructureType
 {
     None,      // 何もしない
     Restart,  // タイトル画面,
-    QuitApp     // アプリを終了
+    QuitApp,     // アプリを終了
 }
 
 public class Ending : MonoBehaviour, IPointerClickHandler
 {
-    
+    private TextMeshProUGUI ResultText;
+    private bool is_success;
     [Header("この構造物の種類を設定")]
-    public StructureType structureType; // インスペクターで選択可能にする
+    public StructureType structureType; 
 
     public void Start()
     {
+        if (is_success)
+        {
+            ResultText.text = "GameClear!";
+        }
+        else
+        {
+            ResultText.text = "Game Over";
+        }
     }
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -45,6 +54,7 @@ public class Ending : MonoBehaviour, IPointerClickHandler
                 QuitGame();
                 break;
 
+                
             default:
                 Debug.LogWarning("Unknown structure type: " + structureType);
                 break;

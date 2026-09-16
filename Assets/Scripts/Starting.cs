@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -6,15 +7,19 @@ using TMPro;
 
 public class Starting : MonoBehaviour
 {
+    private TextMeshProUGUI TextMeshPro;
+    GameObject Fourth;
     [Header("UI要素の参照")]
     [SerializeField] private Button firstButton;    // 1番上のボタン（切替用）
     [SerializeField] private Button secondButton1;   // 2番目のボタン
     [SerializeField] private Button thirdButton2;   // 3番目のボタン
+    [SerializeField] private Button forthButton;    // 4番目のボタン
 
     [SerializeField] private TextMeshProUGUI firstButtonText;
     [SerializeField] private TextMeshProUGUI secondButtonText;
     [SerializeField] private TextMeshProUGUI thirdButtonText;
-private int currentMode = 0;
+    [SerializeField] private TextMeshProUGUI forthButtonText;
+    private int currentMode = 0;
 
     void Start()
     {
@@ -22,6 +27,7 @@ private int currentMode = 0;
         firstButton.onClick.AddListener(OnfirstButtonClicked);
         secondButton1.onClick.AddListener(OnsecondButtonClicked);
         thirdButton2.onClick.AddListener(OnthirdButtonClicked);
+        forthButton.onClick.AddListener(OnforthButtonClicked);
 
         // 最初の状態をセット
         UpdateUI();
@@ -38,7 +44,7 @@ private int currentMode = 0;
             PlayerPrefs.SetInt("difficulty", 1);
             SceneManager.LoadScene("Game");
         }
-        Debug.Log("モードを切り替えました: " + currentMode);
+        Debug.Log("モード切り替え: " + currentMode);
         UpdateUI();
     }
 
@@ -50,12 +56,15 @@ private int currentMode = 0;
             firstButtonText.text = "スタート";
             secondButtonText.text = "チュートリアル";
             thirdButtonText.text = "終了";
+            Fourth.SetActive(false);
         }
         else if (currentMode == 1)
         {
             firstButtonText.text = "イージー";
             secondButtonText.text = "ノーマル";
             thirdButtonText.text = "ハード";
+            forthButtonText.text = "戻る";
+            Fourth.SetActive(true);
         }
     }
 
@@ -84,6 +93,17 @@ private int currentMode = 0;
         {
             PlayerPrefs.SetInt("difficulty", 3);
             SceneManager.LoadScene("Game");
+        }
+    }
+    void OnforthButtonClicked()
+    {
+        if (currentMode == 0)
+        {
+        }
+        else
+        {
+            currentMode = 0;
+            UpdateUI();
         }
     }
     void QuitGame()
