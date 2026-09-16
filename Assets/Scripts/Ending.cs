@@ -19,24 +19,27 @@ public class Ending : MonoBehaviour
     private AudioSource audioSource;
     [SerializeField] private AudioClip GameOverBGM;
     [SerializeField] private AudioClip GameClearBGM;
+    [SerializeField] private AudioClip ResultBGM;
     //gameoverかgameclearかを判定するフラグ
     public static bool is_clear = false;
 
     public void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        audioSource.loop = true;
         if (is_clear)
         {
             ResultText.text = "GameClear!";
             audioSource.generator = GameClearBGM;
             audioSource.Play();
-            
+            Invoke(nameof(playResultBGM), 4.0f);
         }
         else
         {
             ResultText.text = "Game Over";
             audioSource.generator = GameOverBGM;
             audioSource.Play();
+            // Invoke(nameof(playResultBGM), 3.0f);
         }
         GameObject Restart = GameObject.Find("Restart");
         Button RestartBTN = Restart.GetComponent<Button>();
@@ -46,7 +49,12 @@ public class Ending : MonoBehaviour
         Button QuitAppBTN = QuitApp.GetComponent<Button>();
         QuitAppBTN.onClick.AddListener(ClickQuitAppBTN);
     }
-
+    private void playResultBGM()
+    {
+        audioSource.generator = ResultBGM;
+        audioSource.loop = true;
+        audioSource.Play();
+    }
     private void ClickRestartBTN()
     {
         SceneManager.LoadScene("Start");

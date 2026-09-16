@@ -7,6 +7,8 @@ using TMPro;
 
 public class Starting : MonoBehaviour
 {
+    //難易度の設定(1=easy,2=normal,3=hard)
+    public static int difficulty;
     private TextMeshProUGUI TextMeshPro;
     private AudioSource audiosSource;
     public AudioClip titleBGM;
@@ -48,7 +50,7 @@ public class Starting : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("difficulty", 1);
+            difficulty = 1;
             SceneManager.LoadScene("Game");
         }
         Debug.Log("モード切り替え: " + currentMode);
@@ -84,7 +86,7 @@ public class Starting : MonoBehaviour
         }
         else if (currentMode == 1)
         {
-            PlayerPrefs.SetInt("difficulty", 2);
+            difficulty = 2;
             SceneManager.LoadScene("Game");
         }
     }
@@ -98,7 +100,7 @@ public class Starting : MonoBehaviour
         }
         else if (currentMode == 1)
         {
-            PlayerPrefs.SetInt("difficulty", 3);
+            difficulty = 3;
             SceneManager.LoadScene("Game");
         }
     }
@@ -106,6 +108,7 @@ public class Starting : MonoBehaviour
     {
         if (currentMode == 0)
         {
+            return;
         }
         else
         {
