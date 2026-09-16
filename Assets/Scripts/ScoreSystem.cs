@@ -43,6 +43,8 @@ public class ScoreSystem : MonoBehaviour
 
         comments[0] = comments[0] + CompareTime(waiting_time, ordered_status);
         comments[1] = comments[1] + 1;
+
+        star = comments[0] / comments[1];
     }
 
     private List<int>[] CompareToppings(
@@ -76,7 +78,7 @@ public class ScoreSystem : MonoBehaviour
         return personal_star;
     }
 
-    
+
 
 
     Dictionary<int, int> rank2money = new Dictionary<int, int>()
