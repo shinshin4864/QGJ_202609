@@ -84,7 +84,7 @@ public class Starting : MonoBehaviour
         else
         {
             difficulty = 1;
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("MainScene");
         }
 
         Debug.Log("モード切り替え: " + currentMode);
@@ -101,7 +101,7 @@ public class Starting : MonoBehaviour
         else if (currentMode == 1)
         {
             difficulty = 2;
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("MainScene");
         }
     }
 
@@ -115,7 +115,7 @@ public class Starting : MonoBehaviour
         else if (currentMode == 1)
         {
             difficulty = 3;
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("MainScene");
         }
     }
 
